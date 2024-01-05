@@ -1,5 +1,5 @@
 ---
-
+import { Image } from 'astro:assets';
 import swaley from '../images/me.jpeg';
 
 ---
@@ -10,7 +10,7 @@ import swaley from '../images/me.jpeg';
         
         <div class="w-full lg:w-1/2 flex justify-center">
 
-            <img class="lg:-rotate-6 lg:origin-bottom-right aspect-square max-w-full lg:max-w-[400px] lg:max-h-[400px]" src={swaley} alt="Swaley-James Smart">
+            <img class="lg:-rotate-6 lg:origin-bottom-right aspect-square max-w-full lg:max-w-[400px] lg:max-h-[400px]" src={swaley.src} alt="Swaley-James Smart">
         
         </div>
 
